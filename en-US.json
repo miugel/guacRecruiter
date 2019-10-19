@@ -1,0 +1,99 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "guac recruiter",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OpenIntent",
+                    "slots": [],
+                    "samples": [
+                        "guac recruiter",
+                        "open guac recruiter"
+                    ]
+                },
+                {
+                    "name": "GetNameIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "I'm {name} ",
+                        "I am {name} ",
+                        "My name is {name} "
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "year",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "high school student"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grad",
+                                "synonyms": [
+                                    "graduate"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "senior",
+                                "synonyms": [
+                                    "fourth year"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "junior",
+                                "synonyms": [
+                                    "third year"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sophomore",
+                                "synonyms": [
+                                    "second year"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "freshman",
+                                "synonyms": [
+                                    "first year"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
